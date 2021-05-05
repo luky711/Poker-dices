@@ -1,0 +1,93 @@
+body{
+	background-color: #26ff88;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2325fda7' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%2325fac6' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%2324f8e4' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%2324eaf6' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%2324c8f3' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%2323a7f1' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%232387ee' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+text-align: center;
+}
+.dado{
+background-image:url(https://i.pinimg.com/originals/0b/61/ba/0b61ba096406865f0e76a9b07e36dc69.png);
+background-position:-803px;
+width:157px;
+height:156px;
+}
+#contenedor_dados{
+display:flex;
+width:315px;
+margin:0 auto;
+}
+
+#boton_tirar{
+display:block;
+width:120px;
+height:60px;
+margin:10px auto;
+background-color:#239B56;
+color:#1C2833;
+border:0;
+border-radius:20px;
+cursor:pointer;
+}
+/* Ventana */
+#titulo{
+margin: 0 auto;
+width: 152px;
+margin-bottom: 40px;
+color:#0081a7;
+}
+#mensaje_texto{
+position: absolute;
+top: 30px;
+left: 40px;
+width: 255px;
+/*border: 1px solid black;*/
+height: 140px;
+}
+body{
+margin: 0;
+padding: 0;
+}
+.show{
+display:block;
+}
+.hidden{
+display:none;
+}
+.ligthbox{
+position: fixed;
+top:0px;
+left:0px;
+width: 100%;
+height: 100%;
+background:rgba(40,160,166,.6);
+}
+.login_content{
+position: relative;
+background-color: #288DA6;
+width: 353px;
+height: 230px;
+margin-right: auto;
+margin-left: auto;
+top:50%;
+margin-top: -115px;
+border-radius: 5%;
+}
+.close_button{
+position: absolute;
+background-color: #2852A6;
+top: 10px;
+right: 10px;
+color: white;
+width: 40px;
+height: 40px;
+text-align: center;
+border-radius: 20px;
+cursor: pointer;
+font-size: 23px;
+line-height: 34px;
+font-family: verdana;
+}
+.close_button:hover{
+background-color: white;
+color: #0081a7;
+}
